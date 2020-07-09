@@ -122,22 +122,45 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
 }
 
-@media (max-width: 900px){
+@media screen and (max-width: 900px){
   #page-home{
     background-position-x: 70vw;
   }
-  #page-home .content{
+  #page-home  .content{
     align-items: center;
     text-align: center;
   }
   #page-home header a{
     position: absolute;
-    bottom: 60px;
+    bottom: 48px;
 
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
+    transform: translateY(290%);
   }
   #page-home main{
     align-items: center;
   }
+  #page-search .cards{
+    grid-template-columns: 1fr;
+  }
+  #page-search .cards img{
+    height: 250px;
+  }
+  #page-create-point .field-group{
+    flex-direction: column;
+  }
+  #page-create-point .field-group .field + .field{
+    margin-left: 0;
+  }
+}
+@media(min-width: 1700px){
+  #page-home{
+    background-position-x: 40vw;
+  }
+}
+@media(max-height: 760px){
+#page-home{
+  background-position-y: 200px;
+}
 }
