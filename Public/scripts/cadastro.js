@@ -32,3 +32,20 @@ populateUFs()
   }
 
   document.querySelector("select[name=uf]").addEventListener("change", getCities)
+
+
+//Contatos de ajuda
+//Pegar todos os li
+const contatosToHelp = document.querySelectorAll(".contatos-grid li")
+
+for (const contato of contatosToHelp){
+  contato.addEventListener("click", handleMarkedContato)
+}
+function handleMarkedContato(){
+  const contatoLi = event.target
+  //adicionar ou remover uma classe com javascript
+  contatoLi.classList.toggle("marked")
+
+  const contatoId = event.target.dataset.id
+  console.log()
+}
