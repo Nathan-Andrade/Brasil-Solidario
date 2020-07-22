@@ -50,6 +50,7 @@ main .cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
+  margin-bottom: 20px;
 }
 main .card img{
   width: 100%;
@@ -81,6 +82,7 @@ main .card p{
   line-height: 26px;
 
   color: orangered;
+  margin-bottom: 10px;
 }
 main .card a{
   color: #25992f;

@@ -20,6 +20,12 @@
   #page-search-cadastro .cards{
     grid-template-columns: 1fr;
   }
+  #page-cadastro .field-group{
+    flex-direction: column;
+  }
+  #page-cadastro .field-group .field + .field{
+    margin-left: 0;
+  }
 }
 @media(min-width: 1700px){
   #page-home{
