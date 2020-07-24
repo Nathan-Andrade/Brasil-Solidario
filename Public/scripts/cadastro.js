@@ -52,6 +52,8 @@ function handleMarkedContato(){
   contatoLi.classList.toggle("marked")
 
   const contatoId = contatoLi.dataset.id
+
+  //console.log(`ITEM ID:`, contatoId)
   
   //verificar se existem contatos estão selecionados, se sim
   //pegar os contatos selecionados
@@ -73,6 +75,8 @@ function handleMarkedContato(){
     //adicionar a selecao
     selectedContatos.push(contatoId)
   }
+
+  //console.log(`selectedContatos:`, selectedContatos)
 
   //atualizar o campo escondido com os contatos selecionados
   collectedContatos.value = selectedContatos
