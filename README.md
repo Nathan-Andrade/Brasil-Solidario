@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/Nathan-Andrade/Brasil-Solidario/3d253f15cdb0c3a99829804f62c8b0e69d73e78e/Public/assets/icones/logo.svg)
 # Brasil Solidário
-![](https://github.com/Nathan-Andrade/Brasil-Solidario/blob/master/github/gifdaaplicacao.gif?raw=true) ![](https://github.com/Nathan-Andrade/Brasil-Solidario/blob/master/github/gifresponsive.gif?raw=true)
+![](https://github.com/Nathan-Andrade/Brasil-Solidario/blob/master/github/gifdaaplicacao2.gif?raw=true) ![](https://github.com/Nathan-Andrade/Brasil-Solidario/blob/master/github/gifresponsive.gif?raw=true)
 
 Projeto desenvolvido pensando em ajudar famílias, que estão passando por necessidades em seus lares em meio a Pandemia.
 
