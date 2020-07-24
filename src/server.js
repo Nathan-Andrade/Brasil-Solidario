@@ -8,7 +8,7 @@ const db = require("./database/db")
 server.use(express.static("Public"))
 
 //habilitar o uso do req.body na aplicação
-server.use(express.urlencoded({ extended: true }))
+server.use(express.urlencoded({extended: true}))
 
 //utilizando template engine
 const nunjucks = require("nunjucks");
@@ -24,7 +24,7 @@ server.get("/", (req,res) =>{
 })
 
 server.get("/cadastro", (req,res) =>{
-
+  console.log(req.query)
 
  return res.render("cadastro.html")
 })
@@ -89,11 +89,11 @@ server.get("/search", (req,res) =>{
 
   if(search == ""){
     //pesquisa vazia
-    return res.render("search-cadastro.html", { total: 0 })
+    return res.render("search-cadastro.html", {total: 0})
   }
 
   //pegar os dados do banco de dados
-  db.all(`SELECT * FROM ajudas WHERE city LIKE = '%${search}%'`, function(err, rows){
+  db.all(`SELECT * FROM ajudas WHERE city LIKE '%${search}%'`, function(err, rows){
         if (err) {
           return console.log(err)
         }

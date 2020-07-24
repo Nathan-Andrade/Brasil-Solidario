@@ -26,6 +26,9 @@
   #page-cadastro .field-group .field + .field{
     margin-left: 0;
   }
+  #page-cadastro .contatos-grid{
+    grid-template-columns: 1fr;
+  }
 }
 @media(min-width: 1700px){
   #page-home{
