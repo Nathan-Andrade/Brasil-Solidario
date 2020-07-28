@@ -8,6 +8,7 @@ Projeto desenvolvido pensando em ajudar famílias, que estão passando por neces
 
 # :airplane: Bibliotecas e Tecnologias
 - <a href="https://nodejs.org/en/">Node js</a>
+- <a href="https://www.sqlite.org/docs.html">SQLite3</a>
 - <a href="https://expressjs.com/pt-br/">Express</a>
 - <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>
 - <a href="https://www.npmjs.com/package/nodemon">Nodemon</a>
@@ -46,8 +47,11 @@ Ter um editor de textos, eu recomendo o <a href="https://code.visualstudio.com/"
     // Instale o express 
     $ npm install express
     
+     // Instale oSQLite3 
+    $ npm install express
+    
     // em seguida Instale o nodemon
-    $ npm install nodemon
+    $ npm install sqlite3
     
     // e por fim Instale o nunjucks
     $ npm install nunjucks
