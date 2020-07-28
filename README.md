@@ -47,7 +47,7 @@ Ter um editor de textos, eu recomendo o <a href="https://code.visualstudio.com/"
     // Instale o express 
     $ npm install express
     
-     // Instale oSQLite3 
+     // Instale o SQLite3 
     $ npm install express
     
     // em seguida Instale o nodemon
