@@ -48,10 +48,10 @@ Ter um editor de textos, eu recomendo o <a href="https://code.visualstudio.com/"
     $ npm install express
     
      // Instale o SQLite3 
-    $ npm install express
+    $ npm install sqlite3
     
     // em seguida Instale o nodemon
-    $ npm install sqlite3
+    $ npm install nodemon -D 
     
     // e por fim Instale o nunjucks
     $ npm install nunjucks
